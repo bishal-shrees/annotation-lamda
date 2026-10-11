@@ -1,0 +1,14 @@
+{
+  "name": "annotation-ai-lamda",
+  "version": "1.0.0",
+  "description": "AWS Lambda function to trigger AI generation retries",
+  "main": "index.mjs",
+  "type": "module",
+  "scripts": {
+    "start": "node test.js"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "mongodb": "^7.7.0"
+  }
+}
